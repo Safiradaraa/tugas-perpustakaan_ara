@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title> Data Buku </title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="style data buku.css" />
+  <body>
+     
+      <div class="container2">
+        <h2 class="sub">DATA BUKU</h2>
+        <form method="post" action="" name="databuku" onsubmit="return cekform()">
+          <div class="isi">
+            <div class="isi-box">
+              <span class="details">Id Buku</span>
+              <input placeholder="Masukan id Buku" type="number" name="id" id="id"/><br />
+            </div>
+            <div class="isi-box">
+              <span class="details">Judul Buku</span>
+              <input placeholder="Masukan Judul Buku" type="text" name="txtjudul" /><br />
+            </div>
+            <div class="isi-box">
+              <span class="details">Penerbit</span>
+              <input placeholder="Masukan Penerbit" type="text" name="txtpenerbit" /><br />
+            </div>
+            <div class="isi-box">
+              <span class="details">Pengarang</span>
+              <input placeholder="Masukan Pengarang" type="text" name="txtpengarang" /><br />
+            </div>
+            <div class="isi-box">
+              <span class="details">Jenis Buku</span>
+              <select name="jenisbuku">
+                <option value="komik">Komik</option>
+                <option value="bukupelajaran">Buku Pelajaran</option>
+                <option value="Novel">Buku Bacaan</option></select
+              ><br />
+            </div>
+            <div class="isi-box">
+              <span class="details">Nomor Rak</span>
+              <select type="number" name="txtrak">
+                <option value="rak1">Rak 01</option>
+                <option value="rak2">Rak 02</option>
+                <option value="rak3">Rak 03</option>
+                <option value="rak4">Rak 04</option>
+                <option value="rak5">Rak 05</option>
+                <option value="rak6">Rak 06</option>
+                <option value="rak7">Rak 07</option>
+                <option value="rak8">Rak 08</option>
+                <option value="rak9">Rak 09</option>
+                <option value="rak10">Rak 10</option></select><br />
+            </div>
+          </div>
+          <div class="button2">
+            <input type="submit" name="tblsimpan" value="Save" />
+            <input type="reset" name="tblreset" value="Reset" />
+          </div>
+          <a href="tugas form perpus2.html"> kembali ke menu</a>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

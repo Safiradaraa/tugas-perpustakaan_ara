@@ -1,0 +1,40 @@
+.container3 .isi .isi-box input {
+    height: 30px;
+    width: 55%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 2px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  .container3 {
+    max-width: 80%;
+    width: 100%;
+    display: inline-block;
+    height: 90vh;
+    padding: 25px 30px;
+    border-radius: 5px;
+    justify-content: center;
+    box-shadow: 05px 10px rgba(0, 0, 0, 15);
+    background-color: lavender;
+  }
+  
+  .container3 .sub {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    padding: 0 0 15px 0;
+  }
+  
+  .container3 .sub::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rosybrown;
+  }

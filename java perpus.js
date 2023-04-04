@@ -3,12 +3,12 @@
     alert("Selamat Datang di Perpustakaan Digital ! ")
 }
 
-
 function cekform() {
-    id_anggota = document.getElementById("idagt");
+    id_anggota = document.getElementById("id");
     nama = document.getElementById("txtnama");
     alamat = document.getElementById("txtalamat");
     jenis_kelamin = document.getElementById("jenkel");
+
     if (nama.value == "") {
         alert("nama tidak boleh kosong");
         nama.focus();

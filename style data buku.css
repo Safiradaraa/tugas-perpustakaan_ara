@@ -1,0 +1,86 @@
+
+.container2 .isi .isi-box input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 2px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  .isi .isi-box input:focus,
+  .isi .isi-box input:valid {
+    border-color: skyblue;
+  }
+  
+  form .box2 .box-title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  form .box2 .category {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form .button {
+    text-align: center;
+  }
+  
+  form .button input {
+    padding: 10px 0;
+    margin-top: 10px;
+    height:50px;
+    width: 100px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+  }
+  
+  form .button2 input {
+    padding: 10px 0;
+    margin-top: 10px;
+    height:50px;
+    width: 100px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+  }
+  
+  
+  .container2 {  
+    max-width: 80%;
+    width: 100%;
+    height: 90vh;
+    display: inline-block;
+    background-color:lavender;
+    padding: 25px 30px;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 05px 10px rgba(0, 0, 0, 15);
+  }
+  
+  .container2 .sub {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    padding: 0 0 20px 0;
+  }
+  
+  .container2 .sub::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgb(191, 208, 216);
+  }
